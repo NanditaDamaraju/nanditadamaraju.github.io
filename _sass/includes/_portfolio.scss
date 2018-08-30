@@ -50,3 +50,25 @@
   flex: 0 0 32%;
   margin-bottom: 10px;
 }
+
+.book-caption {
+    
+    display:block;
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
+
+.book-cell {
+    width: 200px;
+    height:250px;
+    margin-bottom: 10px;
+   
+}
+
+.book-img {
+    max-width: 200px;
+    max-height: 200px;
+    align:left;
+    vertical-align:middle;
+    //margin: -75px 0 0 -100px;
+}
