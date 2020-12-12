@@ -1,124 +1,198 @@
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://nanditadamaraju.github.io"
-title: TESTING123 # site's title
-description: "Personal Website" # used by search engines
+# The Site Settings
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT licensed
 
 
-# THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  title: TESTING 123 # blog's title
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
-  gravatar: # Email MD5 hash
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# --------------------------
+title: Nandita Damaraju                          # the main title
 
-  # Header and footer text
-  header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
-  # Icons
- # rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: nandita.damaraju@gmail.com
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  gitlab:
-  github: "NanditaDamaraju"
-  google_plus:
-  instagram: clickingcanvases
-  keybase:
-  linkedin:  https://www.linkedin.com/in/nanditadamaraju/
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: # "twitter username"
-  vimeo:
-  wordpress:
-  youtube:
-  
-  # Sharing options
-  share_buttons:
-    facebook: true
-    twitter: true
-    google_plus: true
-    tumblr:
-    pinterest:
-    pocket:
-    reddit: true
-    linkedin:
-    wordpress:
-    email: true
+description: >-                        # used by seo meta and the atom feed
+  A minimal, portfolio, sidebar,
+  bootstrap Jekyll theme with responsive web design
+  and focuses on text presentation.
 
-  # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
-  katex: true # Enable if using math markup
-  
-  special_page:
-    search: 
-      icon: "search" # Assuming page link and icon are the same
-      enabled: true
-    tags:
-      icon: "tags"
-      enabled: true
-  
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_share_on: "Share on"
-  str_add_to: "Add to"
-  str_email: "Email"
-  str_tweet: "Tweet"
-  str_pin_it: "Pin it"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+# fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
+url: 'NanditaDamaraju.github.io'
 
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+author: Nandita Damaraju                  # change to your full name
 
-  # Post navigation
-  post_navigation: true
-  
-  
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
+avatar: /assets/img/sample/avatar.jpg   # support internet resources
+
+github:
+  username: NanditaDamaraju             # change to your github username
+
+twitter:
+  username: NanditaDamaraju            # change to your twitter username
+
+social:
+  name: Nandita Damaraju                  # it will shows as the copyright owner in Footer
+  email: nandita.damaraju [at] gmail.com             # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/NanditaDamaraju      # change to your twitter homepage
+    - https://github.com/NanditaDamaraju       # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    - https://www.linkedin.com/in/NanditaDamaraju
+
+google_site_verification: google_meta_tag_verification # change to your verification string
+# --------------------------
 
 
-# PORTFOLIO
+# Only if your site type is GitHub Project sites and doesn't have a custom domain,
+# change below value to '/projectname'.
+baseurl: ''
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Shanghai
+
+google_analytics:
+  id: ''          # Fill with your Google Analytics ID
+  pv:
+    # The Google Analytics pageviews switch.
+    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
+    enabled: false
+    # the next options only valid when `google_analytics.pv` is enabled.
+    proxy_url: ''
+    proxy_endpoint: ''
+    cache: false  # pv data local cache, good for the users from GFW area.
+
+disqus:
+  comments: false  # boolean type, the global switch for posts comments.
+  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light  - Use the light color scheme
+#
+#     dark   - Use the dark color scheme
+#
+theme_mode:   # <light|dark>
+
+# boolean type, the global switch for ToC in posts.
+toc: true
+
+paginate: 10
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# DO NOT change this unless you're a Pro user on Jekyll and Web development,
+# or you think you're smart enough to change other relevant URLs within this template.
+permalink: /posts/:title/
+
 collections:
-  portfolio:
+  tabs:
     output: true
-    permalink: /:collection/:name
-  books:
-    output: true
-    permalink: /:collection/:name
-  interests:
-    output: true
-    permalink: /:collection/:name
+    sort_by: order
 
 
+defaults:
+  -
+    scope:
+      path: ''          # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
+      breadcrumb:
+        -
+          label: Posts
+          url: /
+  -
+    scope:
+      path: _drafts
+    values:
+      comments: false
+  -
+    scope:
+      path: index.html
+    values:
+      breadcrumb:
+        -
+          label: Posts
+  -
+    scope:
+      path: tags
+    values:
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Tags
+          url: /tabs/tags/
+  -
+    scope:
+      path: categories
+    values:
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Categories
+          url: /tabs/categories/
+  -
+    scope:
+      path: ''
+      type: tabs             # see `site.collections`
+    values:
+      layout: page
+      dynamic_title: true    # Hide title in mobile screens.
+      breadcrumb:
+        -
+          label: Home
+          url: /
 
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
 sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
-#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
+  sass_dir: /assets/css
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+exclude:
+  - vendor
+  - Gemfile.lock
+  - Gemfile
+  - tools
+  - docs
+  - README.md
+  - LICENSE
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

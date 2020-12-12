@@ -1,0 +1,15 @@
+---
+layout: post
+title: Fooled by Randomness, The Hidden Role of Chance in Life and in the Markets, by Nassim Nicholas Taleb             
+tags: [Test, Markdown]
+categories: [Blogging, Books] 
+feature-img: "assets/img/pexels/book-dark.jpg"             
+img: "assets/img/books/38315.jpg  "
+---
+             
+<a href= "https://www.goodreads.com/book/show/38315.Fooled_by_Randomness" style= "float: left; padding-right: 20px"><img border="0" alt= "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets" src= "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png" /></a><a href="https://www.goodreads.com/book/show/38315.Fooled_by_Randomness">Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets</a> by <a href="https://www.goodreads.com/author/show/21559.Nassim_Nicholas_Taleb">Nassim Nicholas Taleb</a><br/> My rating: <a href="https://www.goodreads.com/review/show/551745473"> 4 of 5 stars</a><br /><br />
+
+
+This is the kind of book that makes you think hard, it is not just a mere representation of facts, experiments or conclusions. A LOT of the points made in the book got me thinking, even though I necessarily didn't agree with them. The book has been written mainly in the context of financial successes and failures, but it is not hard to extrapolate the takeaways to other fields or even life in general. The book mainly revolves around how we perceive risk and how we are not wired to correctly assess risk. Another major point addressed in the book is about biases the surround rare events. There are numerous examples in the book that bring light to the timeworn aphorism "Numbers lie". The book definitely reawakened the skeptic in me when it comes to numbers and statistics. The author expresses a strong distaste for a lot of things that I obviously don't identify with, but I wouldn't let that distaste shroud the very valid points he makes in the book. Most of the book can indeed be summarized in a few key points, which are reiterated on several occasions. The book could have used a better organization of ideas, but all in all a good read.
+
+<br/><br/><a href="https://www.goodreads.com/review/list/16616412-nandita-damaraju">View all my reviews</a>
